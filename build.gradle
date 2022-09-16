@@ -10,7 +10,7 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 dependencies {
-    shadow files('libs/CustomAnvilGUI.jar')
+    shadow files('libs/anvilgui-1.5.3-SNAPSHOT.jar') // Custom AnvilGUI library (edited off of WestPlay's AnvilGUI)
 
     compileOnly 'org.spigotmc:spigot-api:1.18.2-R0.1-SNAPSHOT'
     compileOnly files('libs/UltraCustomizer.jar')
